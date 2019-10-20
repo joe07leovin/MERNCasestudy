@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.schema;
+const Schema = mongoose.Schema;
 
 const ItemSchema = new Schema({
     name: {
-        type: string,
+        type: String,
         require: true
     },
     date: {
